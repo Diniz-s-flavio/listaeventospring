@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: #4c4c4c;
+    align-items: center;
+    flex: 1;
+
+}
+.form-itens{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    padding: 1rem 4rem;
+    font-size: 20px;
+
+}
+.form-itens p{
+    color: white;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+.form-itens input{
+    border-radius: 3px;
+    color: #4c4c4c;
+    background-color: #efefef;
+}
+.form-itens button{
+    margin-left: 1rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(69, 210, 241);
+}
+.container h1 {
+    background-color: rgb(17, 193, 233);
+    padding: 1rem;
+    border-radius: 3px;
+}
